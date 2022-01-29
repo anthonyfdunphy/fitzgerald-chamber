@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,600&display=swap');
+
 
 body{
     margin: 0;
@@ -8,8 +9,7 @@ body{
     width: 1920px;
     height: 890px;
 
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-family: 'Source Serif 4', sans-serif;
     font-size: 20px;
 
     display: grid;
@@ -20,20 +20,15 @@ body{
     box-sizing: border-box;
 }
 
-.container div{
-    border: 1px solid #100000;
-}
-
 .banner-image{
-    background: url(/assets/img/fitz_rte.jpg) no-repeat center center fixed; 
+    background: url(/assets/img/fitzgerald_01.jpg) no-repeat center center fixed; 
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .footer{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(120,120,120,1) 35%, rgba(255,255,255,1) 100%);
+    background-color: rgb(93, 138, 92);
     text-align: center;
     vertical-align: middle;
     line-height: 180px; 
