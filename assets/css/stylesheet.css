@@ -6,16 +6,15 @@ body{
 }
 
 .container{
-    width: 1920px;
-    height: 890px;
+    width: 100vw;
+    height: 100vh;
 
     font-family: 'Source Serif 4', sans-serif;
     font-size: 20px;
 
     display: grid;
 
-    grid-template-columns: auto;
-    grid-template-rows: 700px 210px;
+    grid-template-columns: 600px 1fr;
     
     box-sizing: border-box;
 }
@@ -27,11 +26,21 @@ body{
     overflow: hidden;
 }
 
-.footer{
+.text-banner{
+    padding: 20px;
     background-color: rgb(93, 138, 92);
-    text-align: center;
-    vertical-align: middle;
-    line-height: 180px; 
-    font-size: 80px;
+    font-size: 50px;
+}
+
+.text-banner h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-banner h4{
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 0;
+
 }
 
